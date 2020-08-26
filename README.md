@@ -1,2 +1,5 @@
 # Learning - Terraform
-As part of this learning, i will put here couple of TF files i am creating.
+- This is my learning playground
+- Everything here is free to use, see the License.MD
+- Supported Terraform version = 0.13.0 and above
+- Code editor - i used Visual Studio code https://code.visualstudio.com/

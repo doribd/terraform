@@ -10,6 +10,7 @@
 3. terraform plan
 4. terraform apply
 5. terraform graph
+6. terraform console 
 
 
 **Comments**

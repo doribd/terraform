@@ -3,6 +3,7 @@
 - Everything here is free to use, see the License.MD
 - Supported Terraform version = 0.13.0 and above
 - Code editor - i used Visual Studio code https://code.visualstudio.com/
+- Registery - https://registry.terraform.io/
 
 **Terraform commands i often use**
 1. terraform init

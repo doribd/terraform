@@ -19,6 +19,19 @@
 11. terraform plan -var 'variablename=value' (run the plan with this set up)
 12. terraform workspace new develop (creates a new workspace named as develop)
 
+**Workspace commands**
+1. show - current workspace
+2. list - all workspaces
+3. select - the one to work with, make 'active'
+4. new - workspace
+5. delete - workspace
+
+*Example*
+terraform workspace new workspace_name
+terraform workspace select workspace_name_to_be_active
+
+*use it in configuration by ${terraform.workspace}*
+
 
 **Comments**
 * directory that contains tf files considered as a module

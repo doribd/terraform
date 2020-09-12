@@ -12,10 +12,13 @@
 5. terraform graph
 
 
-Some comments
+**Comments**
 * directory that contains tf files considered as a module
 * directories can be nested therefore modules within a module
 * module naming convention: terraform-provider-nameofthemodule, for example terraform-aws-EKS
 * files within the folder: README.md, License, main.tf,variables.tf,outputs.tf
 * sub modules in directories, the same pattern without README. 
 * usually we have examples directory. 
+
+**My TF Files**
+* myTest2 - 2 EC2's (with nginx) in 2 AZs within Region=Ireland, Pulling index.html from s3 bucket, writing logs to s3 bucket, elb and public dns entry (link).

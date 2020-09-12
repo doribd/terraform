@@ -6,11 +6,15 @@
 
 **Terraform commands i often use**
 1. terraform init
-2. terraform validate
+2. terraform validate (validate all the syntax of the tf files)
 3. terraform plan
 4. terraform apply
 5. terraform graph
-6. terraform console 
+6. terraform console (allowing short and quick tests)
+7. terraform fmt (formats the configuration files, make them look pretty)
+8. terraform taint (allow recreation of certain resource)
+9. terraform untaint (unmark a tainted resource)
+10. terraform workspace
 
 
 **Comments**

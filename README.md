@@ -15,6 +15,8 @@
 8. terraform taint (allow recreation of certain resource)
 9. terraform untaint (unmark a tainted resource)
 10. terraform workspace
+11. terraform plan -var 'variablename=value' (run the plan with this set up)
+12. terraform workspace new develop (creates a new workspace named as develop)
 
 
 **Comments**
@@ -27,3 +29,5 @@
 
 **My TF Files**
 * myTest2 - 2 EC2's (with nginx) in 2 AZs within Region=Ireland, Pulling index.html from s3 bucket, writing logs to s3 bucket, elb and public dns entry (link).
+
+
